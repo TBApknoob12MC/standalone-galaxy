@@ -1,0 +1,32 @@
+<configuration>
+        <dllmap dll="i:cygwin1.dll" target="libc.so/>
+        <dllmap dll="libc" target="libc.so"/>
+        <dllmap dll="intl" target="libc.so"/>
+        <dllmap dll="libintl" target="libc.so"/>
+        <dllmap dll="MonoPosixHelper" target="libMonoPosixHelper.so"/>
+        <dllmap dll="System.Native" target="libmono-native.so"/>
+        <dllmap dll="System.Net.Security.Native" target="libmono-native.so"/>
+        <dllmap dll="libmono-btls-shared" target="libmono-btls-shared.so"/>
+        <dllmap dll="i:msvcrt" target="libc.so"/>
+        <dllmap dll="i:msvcrt.dll" target="libc.so"/>
+        <dllmap dll="sqlite3" target="libsqlite3.so.0"/>
+        <dllmap dll="libX11" target="libX11.so.6"/>
+        <dllmap dll="libgdk-x11-2.0" target="libgdk-x11-2.0.so.0"/>
+        <dllmap dll="libgdk_pixbuf-2.0" target="libgdk_pixbuf-2.0.so.0"/>
+        <dllmap dll="libgtk-x11-2.0" target="libgtk-x11-2.0.so.0"/>
+        <dllmap dll="libglib-2.0" target="libglib-2.0.so.0"/>
+        <dllmap dll="libgobject-2.0" target="libgobject-2.0.so.0"/>
+        <dllmap dll="libgnomeui-2" target="libgnomeui-2.so.0"/>
+        <dllmap dll="libXinerama" target="libXinerama.so.1"/>
+        <dllmap dll="libcairo-2.dll" target="libcairo.so.2"/>
+        <dllmap dll="i:kernel32.dll">
+                <dllentry dll="__Internal" name="CopyMemory" target="mono_win32_compat_CopyMemory"/>
+                <dllentry dll="__Internal" name="FillMemory" target="mono_win32_compat_FillMemory"/>
+                <dllentry dll="__Internal" name="MoveMemory" target="mono_win32_compat_MoveMemory"/>
+                <dllentry dll="__Internal" name="ZeroMemory" target="mono_win32_compat_ZeroMemory"/>
+        </dllmap>
+        <dllmap dll="gdiplus" target="libgdiplus.so.0"/>
+        <dllmap dll="gdiplus.dll" target="libgdiplus.so.0"/>
+        <dllmap dll="gdi32" target="libgdiplus.so.0"/>
+        <dllmap dll="gdi32.dll" target="libgdiplus.so.0"/>
+</configuration>
