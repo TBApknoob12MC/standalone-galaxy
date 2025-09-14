@@ -35,3 +35,7 @@ just like the original, the mcgalaxy bin is gpl'ed
 libmonosgen-2.0.so is probably lgpl'ed
 
 do wtf you want with the build scripts just give credit and don't use it for ai slop.
+
+## reference
+
+this page helped me a lot: [mcgalaxy wiki](https://github.com/ClassiCube/MCGalaxy/wiki/Standalone-builds-using-mkbundle)
