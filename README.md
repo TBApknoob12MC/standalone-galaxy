@@ -21,10 +21,10 @@ takes  400 - 600 mb.
 
 clone this repo.(needs git)
 
-run build script and install script:
+run build script:
 
 ```sh
-bash build.sh && bash install.sh
+bash build.sh install
 ```
 
 Here, I just fixed build step by changing the library names and not linking libraries that is nonexistent in mono's termux version
