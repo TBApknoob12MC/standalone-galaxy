@@ -32,7 +32,7 @@ Here, I just fixed build step by changing the library names and not linking libr
 ## License
 
 just like the original, the mcgalaxy bin is gpl'ed 
-libmonosgen-2.0.so is probably lgpl'ed
+libmonosgen-2.0.so is probably MIT'ed or something else idk its part of mono and its MIT'ed
 
 do wtf you want with the build scripts just give credit and don't use it for ai slop.
 
